@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.btn{
+  width:120px;
+  height:35px;
+  text-align: center;
+  border-radius:10px;
+  color:white;
+  border:1px solid whitesmoke;
+}
+.btn-inc{
+  background:#0081CF;
+}
+.btn-dec{
+  background:#C34A36;
+}
+.btn-add{
+  background:#926D00;
+}
+.btn-sub{
+  background:#FF8066;
+}
+.success{
+  color:#568EA0;
+}
+.danger{
+  color:red;
+}
