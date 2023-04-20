@@ -1,0 +1,26 @@
+Basic terminology:
+
+Store : A complex state management tool, with a single as CDS
+Reducers : Manage state and returns newly updated state (contains state and action)
+Actions : Action have two properties 1.Type : unique identifier 2.Payload : which has data
+Dispatch : Used to send the actions to update the data
+
+
+
+
+
+1. Creating reactapp   - npx create-react-app appname
+2. Installing Redux tool - npm install redux react-redux ( redux, react-redux are redux tools)
+3. Create Store folder in src- which contains all the state mangement tools.
+4. Create index file in store folder - where we are handling our actions.
+5. Use provider and state in index.js
+
+
+Store/index.js:
+
+Create a store and export it
+
+App.js :
+1. Using useSelector from 'react-redux we are using counter from store
+2.Using Dispatch we are sending our actions
+3. Send the type and payload
